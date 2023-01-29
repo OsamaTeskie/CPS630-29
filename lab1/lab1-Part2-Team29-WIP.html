@@ -11,8 +11,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<title>electronics-center</title>
-  <link rel="stylesheet" href="lab1-Part2-Team29.css">
 </head>
+
+<style>
+table {
+	width: 100%;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+table,
+th,
+td {
+  border: 5px solid black;
+  
+}
+tr:hover {background-color: coral;}
+
+
+body {background-color: papayawhip;}
+
+</style>
+
 
 <body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
@@ -92,7 +114,7 @@
 
 	<div class="col-10">
 		<table id="table">
-		  <tr>
+		  <tr style="background-color:aquamarine">
 			<th>Picture</th>
 			<th class="info">devices</th>
 			<th class="info">name</th>
@@ -104,83 +126,83 @@
 		  </tr>
 		  	  
 		  <tr id="row1">		
-			<td>
+			<th>
 				<label>in</label>
 				<input type="radio" class="f1" id="1a" value="in" name="fade">
 				<label>out</label>
 				<input type="radio" class="f1" id="1b" value="out" name="fade">
-				<img id="img1" src="lab1/1.jpg" alt="1" width="200">
-			</td>
-			<td><p class="info1">devices</p></td>
-			<td><p class="info1">name</p></td>
-			<td><p class="info1">company</p></td>
-			<td><p class="info1">year</p></td>
-			<td><p class="info1">type</p></td>
-			<td>
+				<img id="img1" src="lab1/1.jpg" alt="1" width="200" height="250">
+			</th>
+			<th><p class="info1">MacBook</p></th>
+			<th><p class="info1">MacBook Pro</p></th>
+			<th><p class="info1">Apple</p></th>
+			<th><p class="info1">2020</p></th>
+			<th><p class="info1">M1 spec</p></th>
+			<th>
 				<button onclick="window.location.href='https://www.google.com';">1</button>
 				<button onclick="window.location.href='https://www.google.com';">2</button>
 				<button onclick="window.location.href='https://www.google.com';">3</button>
 				<button onclick="window.location.href='https://www.google.com';">4</button>			
-			</td>
-			<td>
+			</th>
+			<th>
 				<label>in</label>
 				<input type="radio" class="rrow1" id="rrow1" value="in" name="fade">
 				<label>out</label>
 				<input type="radio" class="rrow1" id="rrow1" value="out" name="fade">
-			</td>
+			</th>
 		  </tr>
 			
 		  <tr id="row2">
-			<td>
+			<th>
 				<label>in</label>
 				<input type="radio" class="f2" id="2a" value="in" name="fade">
 				<label>out</label>
 				<input type="radio" class="f2" id="2b" value="out" name="fade">
-				<img id="img2" src="lab1/2.jpg" alt="2" width="200">
-			</td>
-			<td><p class="info2">devices</p></td>
-			<td><p class="info2">name</p></td>
-			<td><p class="info2">company</p></td>
-			<td><p class="info2">year</p></td>
-			<td><p class="info2">type</p></td>
-			<td>
+				<img id="img2" src="lab1/2.jpg" alt="2" width="200" height="250">
+			</th>
+			<th><p class="info2">Iphone</p></th>
+			<th><p class="info2">Iphone 14</p></th>
+			<th><p class="info2">Apple</p></th>
+			<th><p class="info2">2022</p></th>
+			<th><p class="info2">A5 spec</p></th>
+			<th>
 				<button onclick="window.location.href='https://www.google.com';">1</button>
 				<button onclick="window.location.href='https://www.google.com';">2</button>
 				<button onclick="window.location.href='https://www.google.com';">3</button>
 				<button onclick="window.location.href='https://www.google.com';">4</button>	
-			</td>
-			<td>
+			</th>
+			<th>
 				<label>in</label>
 				<input type="radio" class="rrow2" id="rrow2" value="in" name="fade">
 				<label>out</label>
 				<input type="radio" class="rrow2" id="rrow2" value="out" name="fade">
-			</td>
+			</th>
 		  </tr>
 		  <tr id="row3">
-			<td>
+			<th>
 				<label>in</label>
 				<input type="radio" class="f3" id="3a" value="in" name="fade">
 				<label>out</label>
 				<input type="radio" class="f3" id="3b" value="out" name="fade">
-				<img id="img3" src="lab1/3.jpg" alt="3" width="200">
-			</td>
-			<td><p class="info3">devices</p></td>
-			<td><p class="info3">name</p></td>
-			<td><p class="info3">company</p></td>
-			<td><p class="info3">year</p></td>
-			<td><p class="info3">type</p></td>
-			<td>
+				<img id="img3" src="lab1/3.jpg" alt="3" width="200" height="250">
+			</th>
+			<th><p class="info3">ThinkPad</p></th>
+			<th><p class="info3">X13</p></th>
+			<th><p class="info3">Lenovo</p></th>
+			<th><p class="info3">2020</p></th>
+			<th><p class="info3">Intel spec</p></th>
+			<th>
 				<button onclick="window.location.href='https://www.google.com';">1</button>
 				<button onclick="window.location.href='https://www.google.com';">2</button>
 				<button onclick="window.location.href='https://www.google.com';">3</button>
 				<button onclick="window.location.href='https://www.google.com';">4</button>		
-			</td>
-			<td>
+			</th>
+			<th>
 				<label>in</label>
 				<input type="radio" class="rrow3" id="rrow3" value="in" name="fade">
 				<label>out</label>
 				<input type="radio" class="rrow3" id="rrow3" value="out" name="fade">
-			</td>
+			</th>
 		  </tr>
 		</table>
 	</div>

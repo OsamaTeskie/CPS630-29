@@ -8,115 +8,109 @@
 
 <!-- in the table, 5 other columns, titled: name, company, year, type, actions: below -->
 <!-- action: list of 4 action buttons beside each other, dummy <button> with link -->
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>electronics-center</title>
-  <link rel="stylesheet" href="lab1-Part1-Team29.css">
-</head>
-
-<body>
-
-  <div class="row" style="display: flex; justify-content: space-between;">
-    <div>
-      <form id="left">
-        <label>Type</label>
-        <select name="type" id="type">
-          <option value="0">laptop</option>
-          <option value="1">notebook</option>
-          <option value="2">tablet</option>
-          <option value="3">cellphone</option>
-        </select>
-        <br><br>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-
-    <div>
-      <table id="table">
-        <tr>
-          <th></th>
-          <th>Name</th>
-          <th>Company</th>
-          <th>Year</th>
-          <th>Type</th>
-          <th>Actions</th>
-        </tr>
-        <tr>
-          <td>
-            <div class="flex">
-              <input type="radio" id="1" name="1" value="radio">
-              <img src="lab1/1.jpg" alt="1" width="500">
-            </div>
-          </td>
-          <td>name</td>
-          <td>company</td>
-          <td>year</td>
-          <td>type</td>
-          <td>
-            <button onclick="window.location.href='https://www.google.com';">1</button>
-            <button onclick="window.location.href='https://www.google.com';">2</button>
-            <button onclick="window.location.href='https://www.google.com';">3</button>
-            <button onclick="window.location.href='https://www.google.com';">4</button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="flex">
-              <input type="radio" id="2" name="2" value="radio">
-              <img src="lab1/2.jpg" alt="2" width="500">
-            </div>
-          </td>
-          <td>name</td>
-          <td>company</td>
-          <td>year</td>
-          <td>type</td>
-          <td>
-            <button onclick="window.location.href='https://www.google.com';">1</button>
-            <button onclick="window.location.href='https://www.google.com';">2</button>
-            <button onclick="window.location.href='https://www.google.com';">3</button>
-            <button onclick="window.location.href='https://www.google.com';">4</button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="flex">
-              <input type="radio" id="3" name="3" value="radio">
-              <img src="lab1/3.jpg" alt="3" width="500">
-            </div>
-          </td>
-          <td>name</td>
-          <td>company</td>
-          <td>year</td>
-          <td>type</td>
-          <td>
-            <button onclick="window.location.href='https://www.google.com';">1</button>
-            <button onclick="window.location.href='https://www.google.com';">2</button>
-            <button onclick="window.location.href='https://www.google.com';">3</button>
-            <button onclick="window.location.href='https://www.google.com';">4</button>
-          </td>
-        </tr>
-      </table>
-    </div>
-
-    <div>
-      <form id="right">
-        <label>Action</label>
-        <select name="type" id="type">
-          <option value="0">archive</option>
-          <option value="1">edit</option>
-          <option value="2">delete</option>
-          <option value="3">collection</option>
-        </select>
-        <br><br>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
-
-
-</body>
-
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>electronics-center</title>
+      <link rel="stylesheet" href="lab1-Part1-Team29.css">
+    </head>
+    
+    <body>
+    
+      <div class="row" style="display: flex; justify-content: space-between;">
+        <div>
+          <form id="left">
+            <label>Type</label>
+            <select name="type" id="type">
+              <option value="laptop">laptop</option>
+              <option value="notebook">notebook</option>
+              <option value="tablet">tablet</option>
+              <option value="cellphone">cellphone</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+    
+        <div>
+          <table id="table">
+            <tr style="background-color:aquamarine">
+              <th></th>
+              <th>Name</th>
+              <th>Company</th>
+              <th>Year</th>
+              <th>Type</th>
+              <th>Actions</th>
+            </tr>
+            <tr >
+              <th style="display: flex;">
+                <input type="radio" id="1" name="1" value="radio">
+                <img src="lab1/1.jpg" alt="1" width="500">
+              </th>
+              <th>MacBook</th>
+              <th>Apple</th>
+              <th>2020</th>
+              <th>Pro</th>
+              <th>
+                <button onclick="window.location.href='https://www.google.com';">1</button>
+                <button onclick="window.location.href='https://www.google.com';">2</button>
+                <button onclick="window.location.href='https://www.google.com';">3</button>
+                <button onclick="window.location.href='https://www.google.com';">4</button>
+              </th>
+            </tr>
+            <tr>
+              <th style="display: flex;">
+                <input type="radio" id="2" name="2" value="radio">
+                <img src="lab1/2.jpg" alt="2" width="500">
+              </th>
+              <th>Iphone</th>
+              <th>Apple</th>
+              <th>2022</th>
+              <th>Regular</th>
+              <th>
+                <button onclick="window.location.href='https://www.google.com';">1</button>
+                <button onclick="window.location.href='https://www.google.com';">2</button>
+                <button onclick="window.location.href='https://www.google.com';">3</button>
+                <button onclick="window.location.href='https://www.google.com';">4</button>
+              </th>
+            </tr>
+            <tr>
+              <th style="display: flex;">
+                <input type="radio" id="3" name="3" value="radio">
+                <img src="lab1/3.jpg" alt="3" width="500">
+              </th>
+              <th>ThinkPad</th>
+              <th>Lenovo</th>
+              <th>2020</th>
+              <th>Intel Windows</th>
+              <th>
+                <button onclick="window.location.href='https://www.google.com';">1</button>
+                <button onclick="window.location.href='https://www.google.com';">2</button>
+                <button onclick="window.location.href='https://www.google.com';">3</button>
+                <button onclick="window.location.href='https://www.google.com';">4</button>
+              </th>
+            </tr>
+          </table>
+        </div>
+    
+        <div>
+          <form id="right">
+            <label>Action</label>
+            <select name="type" id="type">
+              <option value="archive">archive</option>
+              <option value="edit">edit</option>
+              <option value="delete">delete</option>
+              <option value="collection">collection</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    
+    
+    </body>
+    
+    </html>
